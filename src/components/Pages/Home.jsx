@@ -1,22 +1,37 @@
 import React from "react";
-import AboutUs from "../AboutUs";
+import ReferreUs from "../ReferreUsSection";
+import Address from "../Address";
+import WelcomeStatement from "../Welcome";
 import Footer from "../Footer";
 import Hero from "../Hero";
-import Joinourteam from "../Joinourteam";
+
 import Knowus from "../KnowUs";
+import WhyChooseUs from "../WhyChooseUs";
 import Navbar from "../Navbar";
+import NewHero from "../NewHero";
+
 import Ourservices from "../Ourservices";
+import LandingPage from "../../Assests/Landingpage.jpeg";
+import NewContactUs from "../NewContactUs";
+import ServicedAreas from "../ServicedAreas";
 
 function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <AboutUs />
-      <Knowus />
-      <Joinourteam />
+      <NewHero />
+      <WelcomeStatement />
+      <WhyChooseUs />
       <Ourservices />
-      <Footer />
+      <NewContactUs />
+      <ServicedAreas />
+      <ReferreUs />
+      <Address />
+      <Footer />{" "}
+      {/* <div>
+        <img src={LandingPage} alt="/" className="w-full" />
+      </div> */}
+      {/* <Hero /> */} {/* <Knowus /> */}
     </>
   );
 }

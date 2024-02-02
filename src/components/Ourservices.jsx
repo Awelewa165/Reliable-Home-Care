@@ -3,84 +3,210 @@ import React from "react";
 import { CheckIcon } from "@heroicons/react/20/solid";
 
 const includedFeatures = [
-  "Private forum access",
+  "Daily living assistance",
+  "Personal care",
+  "Light housekeeping ",
+  "Meal preparation",
+  "Washing dishes ",
+  "Dusting and vacuuming",
+  "Laundry ",
+  "Bed making",
+  "Grooming and dressing",
+  "Oral and personal hygiene",
+  "Assistance with bathing and toileting ",
+  "Medication reminder",
+  "Transferring ",
+  "Companionship",
+  "Taking and recording temperature and daily weights",
+  "Administering emergency first aid",
+  "Helping to plan daily schedule. ",
+  "Scheduling appointments as needed ",
+  "Assist with crafts. ",
+  "Reviewing daily activities ",
+  "Birthday reminders",
   "Member resources",
-  "Entry to annual conference",
-  "Official member t-shirt",
 ];
 
-export default function Ourservices() {
+const Ourservices = () => {
   return (
-    <div className="bg-white py-24 sm:py-32 ">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Our Services
-          </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-            quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.
-          </p>
-        </div>
-        <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
-          <div className="p-8 sm:p-10 lg:flex-auto">
-            <h3 className="text-2xl font-bold tracking-tight text-gray-900">
-              Lifetime membership
-            </h3>
-            <p className="mt-6 text-base leading-7 text-gray-600">
-              Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque
-              amet indis perferendis blanditiis repellendus etur quidem
-              assumenda.
-            </p>
-            <div className="mt-10 flex items-center gap-x-4">
-              <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
-                What’s included
-              </h4>
-              <div className="h-px flex-auto bg-gray-100" />
-            </div>
-            <ul
-              role="list"
-              className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6"
+    <div className="px-4 mt-[100px] py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <span className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            {" "}
+            Our Services{" "}
+          </span>
+        </h2>
+        <p className="mt-4 text-xl text-gray-500">
+          We offer a range of specialized services designed to provide
+          compassionate and personalized care for your loved ones. We provide
+          you the best care possible at home, we bring the highest quality care
+          for your home. Whatever your home healthcare needs may be,we can
+          handle any home healthcare demands you may have. Our team will Ensure
+          that your loved ones receive the assistance they require at the
+          appropriate time.
+        </p>
+      </div>
+      <div className="grid gap-8 row-gap-8 lg:grid-cols-3">
+        <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <svg
+              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
             >
-              {includedFeatures.map((feature) => (
-                <li key={feature} className="flex gap-x-3">
-                  <CheckIcon
-                    className="h-6 w-5 flex-none text-indigo-600"
-                    aria-hidden="true"
-                  />
-                  {feature}
-                </li>
-              ))}
-            </ul>
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
           </div>
-          <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-            <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
-              <div className="mx-auto max-w-xs px-8">
-                <p className="text-base font-semibold text-gray-600">
-                  Pay once, own it forever
-                </p>
-                <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                  <span className="text-5xl font-bold tracking-tight text-gray-900">
-                    $349
-                  </span>
-                  <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">
-                    USD
-                  </span>
-                </p>
-                <a
-                  href="#"
-                  className="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Get access
-                </a>
-                <p className="mt-6 text-xs leading-5 text-gray-600">
-                  Invoices and receipts available for easy company reimbursement
-                </p>
-              </div>
-            </div>
+          <h6 className="mb-2 text-xl font-semibold text-[#c18b2e] leading-5">
+            Personal Care Services
+          </h6>
+          <ul className="text-gray-500 font-medium mb-3 text-medium ">
+            <li>Grooming and dressing</li>
+            <li>Oral and personal hygiene </li>
+            <li> Medication reminders</li>
+            <li>Assistance with bathing and toileting</li>
+          </ul>
+        </div>
+        <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <svg
+              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
           </div>
+          <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+            Household Assistance
+          </h6>
+          <ul className="text-gray-500 font-medium mb-3 text-medium ">
+            <li> Daily living assistance</li>
+            <li> Light housekeeping </li>
+            <li> Meal preparation </li>
+            <li>Washing dishes </li>
+            <li> Laundry and Bed making</li>
+            <li> Dusting and vacuuming </li>
+          </ul>
+        </div>
+        <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <svg
+              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
+          </div>
+          <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+            Companion Care
+          </h6>
+          <ul className="text-gray-500 font-medium mb-3 text-medium ">
+            <li> Companionship</li>
+            <li> Assistance with daily activities </li>
+            <li> Help with planning daily schedules </li>
+            <li>Scheduling appointments as needed </li>
+            <li> Birthday reminders</li>
+          </ul>
+        </div>
+      </div>
+      <div className="grid gap-8 mt-[100px] row-gap-8 lg:grid-cols-3">
+        <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <svg
+              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
+          </div>
+          <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+            Health Monitoring
+          </h6>
+          <ul className="text-gray-500 font-medium mb-3 text-medium ">
+            <li>Taking and recording temperature</li>
+            <li>Taking and recording daily weights </li>
+            <li> Administering emergency first aid</li>
+          </ul>
+        </div>
+        <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <svg
+              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
+          </div>
+          <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+            Craft and Leisure Assistance
+          </h6>
+          <ul className="text-gray-500 font-medium mb-3 text-medium ">
+            <li> Assistance with crafts</li>
+            <li> Engaging in leisure activities</li>
+          </ul>
+        </div>
+        <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <svg
+              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
+          </div>
+          <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+            Personalized Care Coordination
+          </h6>
+          <ul className="text-gray-500 font-medium mb-3 text-medium ">
+            <li> Tailored plans for individual needs</li>
+            <li> Coordination of various services for comprehensive care. </li>
+          </ul>
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default Ourservices;

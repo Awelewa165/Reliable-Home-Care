@@ -1,6 +1,7 @@
 import { Fragment, useState } from "react";
 import logo from "../Assests/logo.png";
 import Heroimage from "../Assests/Heroimage.jpg";
+
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
   ArrowPathIcon,
@@ -16,6 +17,13 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
+import Home from "./Pages/Home";
+import Services from "./Pages/Services";
+import AboutPage from "./Pages/AboutPage";
+import ClientReferral from "./Pages/ClientReferral";
+import EmployementPage from "./Pages/EmployementPage";
+import WhyChooseUs from "./Pages/WhyChooseUs";
+import ContactUs from "./Pages/ContactUs";
 
 const products = [
   {
@@ -58,7 +66,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Navbar() {
+const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -69,9 +77,10 @@ export default function Navbar() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
+            {" "}
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-40 w-auto" src={logo} alt="/" />
+              <img className="h-40 w-auto" src={logo} alt="/" onClick={Home} />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -88,12 +97,12 @@ export default function Navbar() {
             <Popover className="relative">
               <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
                 Home
-                <ChevronDownIcon
+                {/* <ChevronDownIcon
                   className="h-5 w-5 flex-none text-gray-400"
                   aria-hidden="true"
-                />
+                /> */}
               </Popover.Button>
-
+              {/* 
               <Transition
                 as={Fragment}
                 enter="transition ease-out duration-200"
@@ -147,41 +156,40 @@ export default function Navbar() {
                     ))}
                   </div>
                 </Popover.Panel>
-              </Transition>
+              </Transition> */}
             </Popover>
-
             <a
-              href="#"
+              href="/services"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               Services
-            </a>
+            </a>{" "}
             <a
-              href="#"
+              href="/aboutPage"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               About us
-            </a>
+            </a>{" "}
             <a
-              href="#"
+              href="/clientReferral"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               Client Referral
             </a>
             <a
-              href="#"
+              href="/employementPage"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               Employement
             </a>
             <a
-              href="#"
+              href="/whychooseUs"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               Why Choose Us
             </a>
             <a
-              href="#"
+              href="/contactUs"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               Contact us
@@ -281,4 +289,5 @@ export default function Navbar() {
       </header>
     </div>
   );
-}
+};
+export default Navbar;

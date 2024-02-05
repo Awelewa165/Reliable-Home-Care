@@ -138,7 +138,7 @@ const ReferralSection = () => {
       </p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a
-          href="/home"
+          href="/referralForm"
           onClick={ReferreUs}
           className="text-sm font-semibold text-[#c18b2e]"
         >

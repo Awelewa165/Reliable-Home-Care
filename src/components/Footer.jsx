@@ -14,23 +14,22 @@ const Footer = () => {
         <div>
           <img className="h-40 w-auto" src={Logo} alt="/" />
           <p className="py-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nam,
-            illum neque cumque voluptatum in perspiciatis? Amet nam,Amet nam,.
+            We provide personal care and a range <br></br> of support services
+            for people. living in <br></br>their own home.
           </p>
-          {/* <div className="flex justify-between md:w-[75%] my-6">
-            <FaFacebookSquare size={30} />
-            <FaInstagram size={30} />
-            <FaTwitterSquare size={30} />
-            <FaDribbbleSquare size={30} />
-            <FaGithubSquare size={30} />
-          </div> */}
         </div>
         <div className="lg:col-span-2 flex justify-between mt-6 ">
           <div>
             <h6 className="font-medium text-gray-900"> Home</h6>
             <ul>
-              <li className="py-2 text-sm"> Our Team</li>
-              <li className="py-2 text-sm"> Our Services</li>
+              <li className="py-2 text-sm" href="/aboutPage">
+                {" "}
+                About us
+              </li>
+              <li className="py-2 text-sm" href="/services">
+                {" "}
+                Our Services
+              </li>
               <li className="py-2 text-sm"> Contact Us</li>
               <li className="py-2 text-sm"> Referre Us</li>
             </ul>

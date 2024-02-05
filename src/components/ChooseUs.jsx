@@ -2,7 +2,7 @@ import { useState } from "react";
 import Heroimage from "../Assests/Heroimage.jpg";
 import Heroimage2 from "../Assests/care2.jpg";
 import Heroimage3 from "../Assests/cash3.jpg";
-import Heroimage4 from "../Assests/Grid2.jpeg";
+import Heroimage4 from "../Assests/aboutimage5.jpeg";
 
 const product = {
   title: "Why Choose Us",
@@ -17,7 +17,7 @@ const product = {
       alt: "",
     },
     {
-      src: [Heroimage3],
+      src: [Heroimage4],
       alt: "",
     },
     {

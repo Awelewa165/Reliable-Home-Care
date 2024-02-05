@@ -23,7 +23,7 @@ function App() {
           <Route path="whychooseUs" element={<WhyChooseUs />} />
           <Route path="contactUs" element={<ContactUs />} />
           <Route path="clientReferral" element={<ClientReferral />} />
-          <Route path="referralForm " element={<ReferralForm />} />
+          <Route path="referralForm" element={<ReferralForm />} />
         </Routes>
       </BrowserRouter>
     </div>

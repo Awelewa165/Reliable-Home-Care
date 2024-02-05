@@ -35,13 +35,13 @@ const NewContactUs = () => {
           </p>
           <div className="flex items-center">
             <a
-              href="/"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-gray-900 transition duration-200 rounded shadow-md bg-[#c18b2e] hover:bg-[#c18b2e] focus:shadow-outline focus:outline-none"
+              href="/employementPage"
+              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-[#c18b2e] hover:bg-[#c18b2e] focus:shadow-outline focus:outline-none"
             >
               Get started
             </a>
             <a
-              href="/"
+              href="/employementPage"
               aria-label=""
               className="inline-flex items-center font-semibold text-[#c18b2e] transition-colors duration-200 hover:text-deep-purple-accent-700"
             >

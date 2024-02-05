@@ -95,7 +95,7 @@ const Navbar = () => {
                     <Menu.Item>
                       {({ active }) => (
                         <a
-                          href=""
+                          href="/referralForm"
                           className={classNames(
                             active
                               ? "bg-gray-100 text-gray-900"
@@ -210,7 +210,7 @@ const Navbar = () => {
                           <Menu.Item>
                             {({ active }) => (
                               <a
-                                href=""
+                                href="/referralForm"
                                 className={classNames(
                                   active
                                     ? "bg-gray-100 text-gray-900"

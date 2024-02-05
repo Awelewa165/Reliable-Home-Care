@@ -89,7 +89,7 @@ const ChooseUS = () => {
         {/* Product info */}
         <div className="mx-auto max-w-2xl px-4 pb-16 pt-10 sm:px-6 lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pb-24 lg:pt-16">
           <div className="">
-            <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+            <h1 className="text-2xl font-bold tracking-tight text-[#c18b2e] sm:text-3xl">
               {product.title}
             </h1>
           </div>
@@ -107,7 +107,7 @@ const ChooseUS = () => {
             </div>
 
             <div className="mt-10">
-              <h3 className="text-lg font-medium text-gray-900">
+              <h3 className="text-lg font-medium text-[#c18b2e]">
                 Serviced Areas
               </h3>
 

@@ -6,8 +6,10 @@ import ClientReferral from "./components/Pages/ClientReferral";
 import ContactUs from "./components/Pages/ContactUs";
 import EmployementPage from "./components/Pages/EmployementPage";
 import Home from "./components/Pages/Home";
+import ReferralForm from "./components/Pages/ReferralForm";
 import Services from "./components/Pages/Services";
 import WhyChooseUs from "./components/Pages/WhyChooseUs";
+import ReferreUs from "./components/ReferreUsSection";
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
           <Route path="whychooseUs" element={<WhyChooseUs />} />
           <Route path="contactUs" element={<ContactUs />} />
           <Route path="clientReferral" element={<ClientReferral />} />
+          <Route path="referralForm " element={<ReferralForm />} />
         </Routes>
       </BrowserRouter>
     </div>

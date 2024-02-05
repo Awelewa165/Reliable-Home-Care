@@ -25,7 +25,7 @@ const Employement = () => {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {" "}
-        <p className="mt-2 text-3xl font-bold text-center tracking-tight text-[#c18b2e] sm:text-4xl">
+        <p className="mt-[-70px] text-3xl font-bold text-center tracking-tight text-[#c18b2e] sm:text-4xl">
           CAREGIVER JOB OPPORTUNITIES
         </p>
         <p className="mt-6 text-lg leading-8 text-gray-600">

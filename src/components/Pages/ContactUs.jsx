@@ -9,7 +9,7 @@ function ContactUs() {
     <div>
       <Navbar />
       <ContactForm />
-      <Address />
+      {/* <Address /> */}
       <Footer />
     </div>
   );

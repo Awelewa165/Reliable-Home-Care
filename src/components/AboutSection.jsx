@@ -1,36 +1,57 @@
 import React from "react";
+import AboutImage from "../Assests/care2.jpg";
 
 const AboutUsSection = () => {
   return (
-    <div className="overflow-hidden bg-[#F6F6F6] text-white mb-[100px] py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="lg:pr-8 lg:pt-4">
-          <div className="text-center">
-            <p className="mt-2 text-3xl font-bold text-gray-900 tracking-tight text-center sm:text-4xl">
-              About Us
-            </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Reliable Homecare was founded by a nurse practitioner who
-              understood the importance of providing quality and adequate care
-              to clients. Reliable Homecare LLC is dedicated to serving and
-              improving our clients’ lives and health as we help them fulfil
-              their full potential daily. Our mission is to ensure that our
-              clients live up to their full potential in the comfort of their
-              homes while ensuring that we maintain the highest level of care.
-              Our caregivers are fully trained to provide the highest quality of
-              care anytime, in and out of the client’s home. Our caregivers are
-              provided with Dementia/ Alzheimer’s training, which enables us to
-              provide care for elderly clients with the diagnosis while enabling
-              them to live at home for as long as they want. We train our
-              caregivers on skills like appropriate client and family
-              communication skills, personal care, safety precaution and first
-              aid, activities of daily living, Body Mechanics, and special needs
-              of the elderly and entire lifespan. We provide care for children,
-              young adults, and the elderly. We are reliable and you can trust
-              us with your care and those of your loved ones. Give us the
-              opportunity to care for you as we are RELIABLE homecare.
-            </p>
-          </div>
+    <div className="bg-white mt-[-50px]">
+      <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+        <div>
+          <h2 className="text-3xl font-bold text-[#c18b2e] tracking-tight sm:text-4xl">
+            About Us
+          </h2>
+          <p className="mt-4 text-gray-500 text-lg leading-8">
+            Reliable Homecare was founded by a nurse practitioner who understood
+            the importance of providing quality and adequate care to clients.
+            Reliable Homecare LLC is dedicated to serving and improving our
+            clients’ lives and health as we help them fulfil their full
+            potential daily. Our mission is to ensure that our clients live up
+            to their full potential in the comfort of their homes while ensuring
+            that we maintain the highest level of care. Our caregivers are fully
+            trained to provide the highest quality of care anytime, in and out
+            of the client’s home. Our caregivers are provided with Dementia/
+            Alzheimer’s training, which enables us to provide care for elderly
+            clients with the diagnosis while enabling them to live at home for
+            as long as they want. We train our caregivers on skills like
+            appropriate client and family communication skills, personal care,
+            safety precaution and first aid, activities of daily living, Body
+            Mechanics, and special needs of the elderly and entire lifespan. We
+            provide care for children, young adults, and the elderly. We are
+            reliable and you can trust us with your care and those of your loved
+            ones. Give us the opportunity to care for you as we are RELIABLE
+            homecare.
+          </p>
+        </div>
+        <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
+          <img
+            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg"
+            alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+            className="rounded-lg bg-gray-100"
+          />
+          <img
+            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-02.jpg"
+            alt="Top down view of walnut card tray with embedded magnets and card groove."
+            className="rounded-lg bg-gray-100"
+          />
+          <img
+            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-03.jpg"
+            alt="Side of walnut card tray with card groove and recessed card area."
+            className="rounded-lg bg-gray-100"
+          />
+          <img
+            src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg"
+            alt="Walnut card tray filled with cards and card angled in dedicated groove."
+            className="rounded-lg bg-gray-100"
+          />
         </div>
       </div>
     </div>

@@ -5,7 +5,6 @@ import WelcomeStatement from "../Welcome";
 import Footer from "../Footer";
 import Hero from "../Hero";
 
-import Knowus from "../KnowUs";
 import WhyChooseUs from "../WhyChooseUs";
 import Navbar from "../Navbar";
 import NewHero from "../NewHero";
@@ -31,7 +30,7 @@ function Home() {
       {/* <div>
         <img src={LandingPage} alt="/" className="w-full" />
       </div> */}
-      {/* <Hero /> */} {/* <Knowus /> */}
+      {/* <Hero /> */}
     </>
   );
 }

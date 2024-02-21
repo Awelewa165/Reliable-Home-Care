@@ -1,5 +1,6 @@
 import { Fragment, useState } from "react";
 import logo from "../Assests/logo.png";
+import newlogo from "../Assests/logoNEW.png";
 import Heroimage from "../Assests/Heroimage.jpg";
 import ReferralForm from "./Pages/ReferralForm";
 import Home from "./Pages/Home";
@@ -35,9 +36,14 @@ const Navbar = () => {
         >
           <div className="flex lg:flex-1">
             {" "}
-            <a href="/" className="-m-1.5 p-1.5">
+            <a href="/" className="">
               <span className="sr-only">Your Company</span>
-              <img className="h-40 w-auto" src={logo} alt="/" onClick={Home} />
+              <img
+                className="h-70 w-auto"
+                src={newlogo}
+                alt="/"
+                onClick={Home}
+              />
             </a>
           </div>
           <div className="flex lg:hidden">

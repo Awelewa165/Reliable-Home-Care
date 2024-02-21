@@ -25,13 +25,15 @@ const NewHero = () => {
             </span>
           </h1>
           <p class="px-0 mb-8 text-lg text-gray-500 md:text-xl lg:px-24">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quas
-            similique asperiores provident, commodi, distinctio libero optio
-            sapiente quasi praesentium, blanditiis ipsum?
+            Our home care service offers personalized assistance tailored to
+            your needs, ensuring comfort and safety within the familiar
+            surroundings of your own home. We are committed to excellence, we
+            strive to enhance the overall well-being and happiness of every
+            individual we serve.
           </p>
           <div class="mb-4 space-x-0 md:space-x-2 md:mb-8">
             <a
-              href="#_"
+              href="/contactUs"
               class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-[#c18b2e] rounded-2xl sm:w-auto sm:mb-0"
             >
               Get Started
@@ -49,7 +51,7 @@ const NewHero = () => {
               </svg>
             </a>
             <a
-              href="#_"
+              href="/aboutPage"
               class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg bg-gray-100 rounded-2xl sm:w-auto sm:mb-0"
             >
               Learn More

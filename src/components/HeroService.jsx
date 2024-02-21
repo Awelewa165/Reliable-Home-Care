@@ -52,7 +52,7 @@ const HeroService = () => {
               assumenda.
             </p>
             <div className="mt-10 flex items-center gap-x-4">
-              <h4 className="flex-none text-sm font-semibold leading-6 text-[#c18b2e]">
+              <h4 className="flex-none text-sm font-semibold leading-6 text-[#2D24A1]">
                 What’s included
               </h4>
               <div className="h-px flex-auto bg-gray-100" />
@@ -64,7 +64,7 @@ const HeroService = () => {
               {includedFeatures.map((feature) => (
                 <li key={feature} className="flex gap-x-3">
                   <CheckIcon
-                    className="h-6 w-5 flex-none text-[#c18b2e]"
+                    className="h-6 w-5 flex-none text-[#2D24A1]"
                     aria-hidden="true"
                   />
                   {feature}

@@ -7,12 +7,13 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa";
 import Logo from "../Assests/logo.png";
+import newlogo from "../Assests/logoNEW.png";
 const Footer = () => {
   return (
     <div className="bg-[#F6F6F6]">
       <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-black">
         <div>
-          <img className="h-40 w-auto" src={Logo} alt="/" />
+          <img className="h-40 w-auto" src={newlogo} alt="/" />
           <p className="py-4">
             We provide personal care and a range <br></br> of support services
             for people. living in <br></br>their own home.

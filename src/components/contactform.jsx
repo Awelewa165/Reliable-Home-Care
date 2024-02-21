@@ -8,7 +8,7 @@ const ContactForm = () => {
       <div class="container mx-auto my-4 px-4 lg:px-20">
         <div class="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
           <div class="">
-            <h2 className="text-3xl font-bold tracking-tight text-[#c18b2e] sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-[#2D24A1] sm:text-4xl">
               Contact Form
             </h2>
             <p className="mt-2 text-lg leading-8 text-gray-600">
@@ -46,7 +46,7 @@ const ContactForm = () => {
           </div>
           <div class="my-2 w-1/2 lg:w-1/4">
             <button
-              class="uppercase text-sm font-bold tracking-wide bg-[#c18b2e] text-gray-100 p-3 rounded-lg w-full 
+              class="uppercase text-sm font-bold tracking-wide bg-[#2D24A1] text-gray-100 p-3 rounded-lg w-full 
                       focus:outline-none focus:shadow-outline"
             >
               Send Message
@@ -67,7 +67,7 @@ const ContactForm = () => {
                 <i class="fas fa-map-marker-alt pt-2 pr-2" />
               </div>
               <div class="flex flex-col">
-                <dt className="mt-4 font-semibold text-[#c18b2e]">Address</dt>
+                <dt className="mt-4 font-semibold text-[#2D24A1]">Address</dt>
                 <dd className="mt-2 leading-7 text-gray-900">
                   3890 Castle Hill drive, Brownsburg, IN, 46112
                 </dd>
@@ -79,7 +79,7 @@ const ContactForm = () => {
                 <i class="fas fa-phone-alt pt-2 pr-2" />
               </div>
               <div class="flex flex-col">
-                <dt className="mt-4 font-semibold text-[#c18b2e]">
+                <dt className="mt-4 font-semibold text-[#2D24A1]">
                   Phone Number
                 </dt>
                 <dd className="mt-2 leading-7 text-gray-900">317-728-4256</dd>
@@ -90,7 +90,7 @@ const ContactForm = () => {
                 <i class="fas fa-phone-alt pt-2 pr-2" />
               </div>
               <div class="flex flex-col">
-                <dt className="mt-4 font-semibold text-[#c18b2e]">Email</dt>
+                <dt className="mt-4 font-semibold text-[#2D24A1]">Email</dt>
                 <dd className="mt-2 leading-7 text-gray-900">
                   administrator@reliablehomecarellc.com
                 </dd>

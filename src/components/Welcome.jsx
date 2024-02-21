@@ -36,7 +36,7 @@ const WelcomeStatement = () => {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-semibold text-xl text-[#c18b2e] leading-5 ">
+            <h6 className="mb-2 font-semibold text-xl text-[#2D24A1] leading-5 ">
               Dedicated to Excellence
             </h6>
             <p className="mb-3 text-medium font-medium text-gray-500 ">
@@ -69,7 +69,7 @@ const WelcomeStatement = () => {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-semibold text-xl text-[#c18b2e] leading-5">
+            <h6 className="mb-2 font-semibold text-xl text-[#2D24A1] leading-5">
               Personalized Care
             </h6>
             <p className="mb-3 text-medium font-medium text-gray-500">
@@ -102,7 +102,7 @@ const WelcomeStatement = () => {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-semibold text-xl text-[#c18b2e] leading-5">
+            <h6 className="mb-2 font-semibold text-xl text-[#2D24A1] leading-5">
               Experienced Caregivers
             </h6>
             <p className="mb-3 text-medium font-medium text-gray-500">
@@ -135,7 +135,7 @@ const WelcomeStatement = () => {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-semibold text-xl text-[#c18b2e] leading-5">
+            <h6 className="mb-2 font-semibold text-xl text-[#2D24A1] leading-5">
               Quick Response
             </h6>
             <p className="mb-3 text-medium font-medium text-gray-500">

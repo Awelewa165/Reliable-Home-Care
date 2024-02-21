@@ -31,7 +31,7 @@ const ServicedAreas = () => {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 text-xl font-semibold text-[#c18b2e] leading-5">
+            <h6 className="mb-2 text-xl font-semibold text-[#2D24A1] leading-5">
               Indianapolis Metropolitan Area
             </h6>
             <ul className="text-gray-500 font-medium mb-3 text-medium ">
@@ -62,7 +62,7 @@ const ServicedAreas = () => {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+            <h6 className="mb-2 font-semibold text-[#2D24A1] leading-5">
               Hamilton County
             </h6>
             <ul className="text-gray-500 font-medium mb-3 text-medium ">
@@ -88,7 +88,7 @@ const ServicedAreas = () => {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+            <h6 className="mb-2 font-semibold text-[#2D24A1] leading-5">
               Hendricks County
             </h6>
             <ul className="text-gray-500 font-medium mb-3 text-medium ">
@@ -112,7 +112,7 @@ const ServicedAreas = () => {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+            <h6 className="mb-2 font-semibold text-[#2D24A1] leading-5">
               Surrounding Counties
             </h6>
             <ul className="text-gray-500 font-medium mb-3 text-medium ">

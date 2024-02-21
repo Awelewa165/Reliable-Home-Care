@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <form>
       <div className="mt-[-170px] space-y-12 mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
-        <p className="text-3xl font-bold text-center tracking-tight text-[#c18b2e] sm:text-4xl">
+        <p className="text-3xl font-bold text-center tracking-tight text-[#2D24A1] sm:text-4xl">
           Application Form
         </p>
         <div className="border-b border-gray-900/10 pb-12">
@@ -302,7 +302,7 @@ const Form = () => {
                 id="about"
                 name="about"
                 rows={3}
-                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#c18b2e]  sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#2D24A1] sm:text-sm sm:leading-6"
                 defaultValue={""}
               />
             </div>
@@ -324,7 +324,7 @@ const Form = () => {
               <div className="mt-4 flex text-sm leading-6 text-gray-600">
                 <label
                   htmlFor="file-upload"
-                  className="relative cursor-pointer rounded-md bg-white font-semibold text-[#c18b2e] focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-[#c18b2e] "
+                  className="relative cursor-pointer rounded-md bg-white font-semibold text-[#2D24A1] focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-[#2D24A1]"
                 >
                   <span>Upload a file</span>
                   <input
@@ -342,7 +342,7 @@ const Form = () => {
         <div className="mt-6 flex items-center justify-end gap-x-6">
           <button
             type="submit"
-            className="rounded-md bg-[#c18b2e] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#c18b2e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#c18b2e]"
+            className="rounded-md bg-[#2D24A1] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#04A7EB] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#c18b2e]"
           >
             Submit
           </button>

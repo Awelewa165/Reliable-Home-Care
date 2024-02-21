@@ -9,7 +9,7 @@ const ReferralSection = () => {
           <li className="flex items-start">
             <span className="mr-1">
               <svg
-                className="w-5 h-5 mt-px text-[#c18b2e]"
+                className="w-5 h-5 mt-px text-[#2D24A1]"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -28,7 +28,7 @@ const ReferralSection = () => {
           <li className="flex items-start ">
             <span className="mr-1">
               <svg
-                className="w-5 h-5 mt-px text-[#c18b2e]"
+                className="w-5 h-5 mt-px text-[#2D24A1]"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -48,7 +48,7 @@ const ReferralSection = () => {
           <li className="flex items-start">
             <span className="mr-1">
               <svg
-                className="w-5 h-5 mt-px text-[#c18b2e]"
+                className="w-5 h-5 mt-px text-[#2D24A1]"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -67,7 +67,7 @@ const ReferralSection = () => {
           <li className="flex items-start">
             <span className="mr-1">
               <svg
-                className="w-5 h-5 mt-px text-[#c18b2e]"
+                className="w-5 h-5 mt-px text-[#2D24A1]"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -88,7 +88,7 @@ const ReferralSection = () => {
           <li className="flex items-start ">
             <span className="mr-1">
               <svg
-                className="w-5 h-5 mt-px text-[#c18b2e]"
+                className="w-5 h-5 mt-px text-[#2D24A1]"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -106,7 +106,7 @@ const ReferralSection = () => {
           <li className="flex items-start">
             <span className="mr-1">
               <svg
-                className="w-5 h-5 mt-px text-[#c18b2e]"
+                className="w-5 h-5 mt-px text-[#2D24A1]"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -140,7 +140,7 @@ const ReferralSection = () => {
         <a
           href="/referralForm"
           onClick={ReferreUs}
-          className="text-sm font-semibold text-[#c18b2e]"
+          className="text-sm font-semibold text-[#04A7EB]"
         >
           Submit referral <span aria-hidden="true">&rarr;</span>
         </a>

@@ -64,7 +64,7 @@ const Ourservices = () => {
               />
             </svg>
           </div>
-          <h6 className="mb-2 text-xl font-semibold text-[#c18b2e] leading-5">
+          <h6 className="mb-2 text-xl font-semibold text-[#2D24A1] leading-5">
             Personal Care Services
           </h6>
           <ul className="text-gray-500 font-medium mb-3 text-medium ">
@@ -90,7 +90,7 @@ const Ourservices = () => {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+          <h6 className="mb-2 font-semibold text-[#2D24A1] leading-5">
             Household Assistance
           </h6>
           <ul className="text-gray-500 font-medium mb-3 text-medium ">
@@ -118,7 +118,7 @@ const Ourservices = () => {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+          <h6 className="mb-2 font-semibold text-[#2D24A1] leading-5">
             Companion Care
           </h6>
           <ul className="text-gray-500 font-medium mb-3 text-medium ">
@@ -147,7 +147,7 @@ const Ourservices = () => {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+          <h6 className="mb-2 font-semibold text-[#2D24A1] leading-5">
             Health Monitoring
           </h6>
           <ul className="text-gray-500 font-medium mb-3 text-medium ">
@@ -172,7 +172,7 @@ const Ourservices = () => {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+          <h6 className="mb-2 font-semibold text-[#2D24A1] leading-5">
             Craft and Leisure Assistance
           </h6>
           <ul className="text-gray-500 font-medium mb-3 text-medium ">
@@ -196,7 +196,7 @@ const Ourservices = () => {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold text-[#c18b2e] leading-5">
+          <h6 className="mb-2 font-semibold text-[#2D24A1] leading-5">
             Personalized Care Coordination
           </h6>
           <ul className="text-gray-500 font-medium mb-3 text-medium ">

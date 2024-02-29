@@ -1,15 +1,18 @@
-import { useState } from "react";
-import Heroimage from "../Assests/Heroimage.jpg";
-import Heroimage2 from "../Assests/care2.jpg";
-import Heroimage3 from "../Assests/cash3.jpg";
-import Heroimage4 from "../Assests/aboutimage5.jpeg";
+import Heroimage1 from "../Assests/ChooseImg1.jpeg";
+import Heroimage2 from "../Assests/LandImg.jpg";
+import Heroimage3 from "../Assests/Image1.jpg";
+import Heroimage4 from "../Assests/ChooseImg2.jpeg";
 
 const product = {
   title: "Why Choose Us",
 
   images: [
     {
-      src: [Heroimage],
+      src: [Heroimage1],
+      alt: "",
+    },
+    {
+      src: [Heroimage2],
       alt: "",
     },
     {
@@ -18,10 +21,6 @@ const product = {
     },
     {
       src: [Heroimage4],
-      alt: "",
-    },
-    {
-      src: [Heroimage2],
       alt: "",
     },
   ],

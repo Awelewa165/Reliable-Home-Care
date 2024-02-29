@@ -1,10 +1,11 @@
 import React from "react";
-import LandingPic1 from "../Assests/Cash1.jpg";
-import LandingPic2 from "../Assests/care1.jpg";
-import LandingPic3 from "../Assests/man1.jpg";
-import LandingPic4 from "../Assests/man2.jpg";
-import LandingPic5 from "../Assests/Grid2.jpeg";
-import LandingPic6 from "../Assests/care3.jpg";
+import LandingPic1 from "../Assests/Image2.jpeg";
+import LandingPic2 from "../Assests/Image4.jpeg";
+import LandingPic3 from "../Assests/Image3.jpeg";
+import LandingPic4 from "../Assests/Image6.jpeg";
+import LandingPic5 from "../Assests/Image7.jpeg";
+import LandingPic6 from "../Assests/Image5.jpeg";
+import LandingPic7 from "../Assests/Image8.jpeg";
 
 const WhyChooseUs = () => {
   return (
@@ -48,7 +49,7 @@ const WhyChooseUs = () => {
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src={LandingPic4}
+                          src={LandingPic2}
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
@@ -64,14 +65,14 @@ const WhyChooseUs = () => {
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src={LandingPic2}
+                          src={LandingPic4}
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src={LandingPic6}
+                          src={LandingPic5}
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
@@ -80,14 +81,14 @@ const WhyChooseUs = () => {
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src={LandingPic5}
+                          src={LandingPic6}
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
-                          src={LandingPic4}
+                          src={LandingPic7}
                           alt=""
                           className="h-full w-full object-cover object-center"
                         />

@@ -1,5 +1,5 @@
 import React from "react";
-import TeamPic from "../Assests/man1.jpg";
+import TeamPic from "../Assests/Image3.jpeg";
 
 const NewContactUs = () => {
   return (

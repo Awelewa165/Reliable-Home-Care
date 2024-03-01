@@ -1,8 +1,8 @@
 import React from "react";
 // import AboutImage1 from "../Assests/AboutImage1.jpeg";
-import AboutImage2 from "../Assests/AboutImage3.jpeg";
-import AboutImage3 from "../Assests/LandImg.jpg";
-import AboutImage4 from "../Assests/AboutImage2.jpeg";
+// import AboutImage2 from "../Assests/AboutImage3.jpeg";
+// import AboutImage3 from "../Assests/LandImg.jpg";
+// import AboutImage4 from "../Assests/AboutImage2.jpeg";
 
 const AboutUsSection = () => {
   return (

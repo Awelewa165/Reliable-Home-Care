@@ -36,7 +36,7 @@ const Address = () => {
                 />
               </div>
               <dt className="mt-4 font-semibold text-white">Phone Number</dt>
-              <dd className="mt-2 leading-7 text-gray-400">317-728-4256</dd>
+              <dd className="mt-2 leading-7 text-gray-400">+1(317) 998-2389</dd>
             </div>
             <div className="flex flex-col items-start">
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">

@@ -21,36 +21,68 @@ const Footer = () => {
         </div>
         <div className="lg:col-span-2 flex justify-between mt-6 ">
           <div>
-            <h6 className="font-medium text-gray-900"> Home</h6>
+            <h6 className="font-medium text-gray-900 " href="/">
+              <a href="/"> Home</a>
+            </h6>
             <ul>
-              <li className="py-2 text-sm" href="/aboutPage">
-                {" "}
-                About us
+              <li className="py-2 text-sm">
+                <a href="/aboutPage"> About us</a>
               </li>
-              <li className="py-2 text-sm" href="/services">
-                {" "}
-                Our Services
+              <li className="py-2 text-sm">
+                <a href="/services"> Our Services</a>
               </li>
-              <li className="py-2 text-sm"> Contact Us</li>
-              <li className="py-2 text-sm"> Referre Us</li>
+              <li className="py-2 text-sm">
+                <a href="/contactUs"> Contact Us</a>
+              </li>
+              <li className="py-2 text-sm">
+                {" "}
+                <a href="/referralForm"> Referre Us</a>
+              </li>
             </ul>
           </div>
           <div>
-            <h6 className="font-medium text-gray-900"> About us</h6>
+            <h6 className="font-medium text-gray-900">
+              {" "}
+              <a href="/aboutPage"> About us</a>
+            </h6>
             <ul>
-              <li className="py-2 text-sm"> Who we are</li>
-              <li className="py-2 text-sm"> Why we do it</li>
-              <li className="py-2 text-sm"> Why choose us</li>
+              <li className="py-2 text-sm">
+                {" "}
+                <a href="/aboutPage">Who we are</a>
+              </li>
+              <li className="py-2 text-sm">
+                {" "}
+                <a href="/aboutPage"> Why we do it</a>
+              </li>
+              <li className="py-2 text-sm">
+                {" "}
+                <a href="/aboutPage">Why choose us</a>
+              </li>
             </ul>
           </div>
 
           <div>
-            <h6 className="font-medium text-gray-900"> Employement</h6>
+            <h6 className="font-medium text-gray-900">
+              {" "}
+              <a href="/employementPage">Employement</a>
+            </h6>
             <ul>
-              <li className="py-2 text-sm"> Job Responsibilities</li>
-              <li className="py-2 text-sm"> Relevant Education</li>
-              <li className="py-2 text-sm"> Job Requirements</li>
-              <li className="py-2 text-sm"> Application Form</li>
+              <li className="py-2 text-sm">
+                {" "}
+                <a href="/employementPage">Job Responsibilities</a>
+              </li>
+              <li className="py-2 text-sm">
+                {" "}
+                <a href="/employementPage"> Relevant Education</a>
+              </li>
+              <li className="py-2 text-sm">
+                {" "}
+                <a href="/employementPage">Job Requirements</a>
+              </li>
+              <li className="py-2 text-sm">
+                {" "}
+                <a href="/employementPage"> Application Form</a>
+              </li>
             </ul>
           </div>
 

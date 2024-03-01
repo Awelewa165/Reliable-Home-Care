@@ -82,7 +82,9 @@ const ContactForm = () => {
                 <dt className="mt-4 font-semibold text-[#2D24A1]">
                   Phone Number
                 </dt>
-                <dd className="mt-2 leading-7 text-gray-900">317-728-4256</dd>
+                <dd className="mt-2 leading-7 text-gray-900">
+                  +1(317) 998-2389
+                </dd>
               </div>
             </div>
             <div class="flex my-4 w-2/3 lg:w-1/2">

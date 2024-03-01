@@ -1,6 +1,7 @@
 import React from "react";
 import AboutImage1 from "../images/aboutImage1.jpeg";
-import AboutImage2 from "../Assests/aboutImage3.jpeg";
+import AboutImage2 from "../images/aboutImage3.jpeg";
+// import AboutImage2 from "../Assests/aboutImage3.jpeg";
 import AboutImage3 from "../Assests/landImg.jpg";
 import AboutImage4 from "../Assests/aboutImage2.jpeg";
 
@@ -39,9 +40,9 @@ const AboutUsSection = () => {
             src={AboutImage1}
             className="rounded-lg w-full h-[250px] bg-gray-100"
           />
-          {/* <img src={AboutImage2} className="rounded-lg h-[250px] bg-gray-100" />
+          <img src={AboutImage2} className="rounded-lg h-[250px] bg-gray-100" />
           <img src={AboutImage3} className="rounded-lg h-[250px] bg-gray-100" />
-          <img src={AboutImage4} className="rounded-lg h-[250px] bg-gray-100" /> */}
+          <img src={AboutImage4} className="rounded-lg h-[250px] bg-gray-100" />
         </div>
       </div>
     </div>

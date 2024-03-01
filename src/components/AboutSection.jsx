@@ -40,15 +40,15 @@ const AboutUsSection = () => {
             className="rounded-lg w-full h-[250px] bg-gray-100"
           />
           <img
-            src={AboutImage2}
+            src={AboutImage1}
             className="rounded-lg w-full h-[250px] bg-gray-100"
           />
           <img
-            src={AboutImage3}
+            src={AboutImage1}
             className="rounded-lg w-full h-[250px] bg-gray-100"
           />
           <img
-            src={AboutImage4}
+            src={AboutImage1}
             className="rounded-lg w-full h-[250px] bg-gray-100"
           />
         </div>

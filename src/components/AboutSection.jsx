@@ -1,5 +1,5 @@
 import React from "react";
-// import AboutImage1 from "../Assests/AboutImage1.jpeg";
+import AboutImage1 from "../Assests/AboutImage1.jpeg";
 // import AboutImage2 from "../Assests/AboutImage3.jpeg";
 // import AboutImage3 from "../Assests/LandImg.jpg";
 // import AboutImage4 from "../Assests/AboutImage2.jpeg";
@@ -35,10 +35,10 @@ const AboutUsSection = () => {
           </p>
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-6">
-          {/* <img
+          <img
             src={AboutImage1}
             className="rounded-lg w-full h-[250px] bg-gray-100"
-          /> */}
+          />
           {/* <img src={AboutImage2} className="rounded-lg h-[250px] bg-gray-100" />
           <img src={AboutImage3} className="rounded-lg h-[250px] bg-gray-100" />
           <img src={AboutImage4} className="rounded-lg h-[250px] bg-gray-100" /> */}

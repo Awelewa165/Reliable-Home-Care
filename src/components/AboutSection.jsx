@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage1 from "../Assests/images/AboutImage1.jpeg";
+import AboutImage1 from "../images/AboutImage1.jpeg";
 // import AboutImage2 from "../Assests/AboutImage3.jpeg";
 // import AboutImage3 from "../Assests/LandImg.jpg";
 // import AboutImage4 from "../Assests/AboutImage2.jpeg";

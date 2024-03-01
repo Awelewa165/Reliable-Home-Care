@@ -1,8 +1,8 @@
 import React from "react";
-// import AboutImage1 from "../images/aboutImage1.jpeg";
-// import AboutImage2 from "../images/aboutImage3.jpeg";
-// import AboutImage3 from "../images/landImg.jpg";
-// import AboutImage4 from "../images/aboutImage2.jpeg";
+import AboutImage1 from "../Assests/Image7.jpeg";
+import AboutImage2 from "../Assests/Image5.jpeg";
+import AboutImage3 from "../Assests/Image8.jpeg";
+import AboutImage4 from "../Assests/Image6.jpeg";
 
 const AboutUsSection = () => {
   return (
@@ -34,24 +34,24 @@ const AboutUsSection = () => {
             homecare.
           </p>
         </div>
-        {/* <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-6">
+        <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-6">
           <img
             src={AboutImage1}
             className="rounded-lg w-full h-[250px] bg-gray-100"
           />
           <img
-            src={AboutImage1}
+            src={AboutImage2}
             className="rounded-lg w-full h-[250px] bg-gray-100"
           />
           <img
-            src={AboutImage1}
+            src={AboutImage3}
             className="rounded-lg w-full h-[250px] bg-gray-100"
           />
           <img
-            src={AboutImage1}
+            src={AboutImage4}
             className="rounded-lg w-full h-[250px] bg-gray-100"
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );

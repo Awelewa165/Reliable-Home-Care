@@ -1,7 +1,5 @@
 import { Fragment, useState } from "react";
-import logo from "../Assests/logo.png";
 import newlogo from "../Assests/logoNEW.png";
-import Heroimage from "../Assests/Heroimage.jpg";
 import ReferralForm from "./Pages/ReferralForm";
 import Home from "./Pages/Home";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";

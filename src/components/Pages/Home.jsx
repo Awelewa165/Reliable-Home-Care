@@ -3,14 +3,12 @@ import ReferreUs from "../ReferreUsSection";
 import Address from "../Address";
 import WelcomeStatement from "../Welcome";
 import Footer from "../Footer";
-import Hero from "../Hero";
 
 import WhyChooseUs from "../WhyChooseUs";
 import Navbar from "../Navbar";
 import NewHero from "../NewHero";
 
 import Ourservices from "../Ourservices";
-import LandingPage from "../../Assests/Landingpage.jpeg";
 import NewContactUs from "../NewContactUs";
 import ServicedAreas from "../ServicedAreas";
 

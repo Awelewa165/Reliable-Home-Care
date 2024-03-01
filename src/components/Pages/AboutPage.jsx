@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../../Assests/logo.png";
 import AboutUsSection from "../AboutSection";
 import Footer from "../Footer";
 import Navbar from "../Navbar";

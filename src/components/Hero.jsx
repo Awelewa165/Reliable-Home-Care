@@ -1,10 +1,10 @@
 import React from "react";
-import LandingPage from "../Assests/Landingpage.jpeg";
+import landingPage from "../Assests/LandImg2.jpg";
 import { ReactTyped } from "react-typed";
 const Hero = () => {
   return (
     <div className="text-[#c18b2e] ">
-      <img src={LandingPage} alt="/" className="w-full" />
+      <img src={landingPage} alt="/" className="w-full" />
       <div className="max-w-[800px] mt-[150px] w-full mx-auto text-center flex flex-col justify-center ">
         <p className="md:text-6xl sm:text-3xl font-bold p-2">
           WELCOME TO RELIABLE HOME CARE

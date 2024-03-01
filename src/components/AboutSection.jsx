@@ -1,7 +1,6 @@
 import React from "react";
 import AboutImage1 from "../images/aboutImage1.jpeg";
 import AboutImage2 from "../images/aboutImage3.jpeg";
-// import AboutImage2 from "../Assests/aboutImage3.jpeg";
 import AboutImage3 from "../Assests/landImg.jpg";
 import AboutImage4 from "../Assests/aboutImage2.jpeg";
 

@@ -11,14 +11,14 @@ const ReferralForm = () => {
       <div class="min-h-screen bg-white py-6 flex flex-col justify-center sm:py-12">
         <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
           <h1 className="mb-8 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
-            Referre Us
+            Refer Us
           </h1>{" "}
           <p className="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">
             If you've benefited from our extensive range of services, refer us
             to your friends and family, and let them discover the dedicated
             support we offer in daily living assistance, personal care, and
             beyond. Share the gift of compassionate and comprehensive home care
-            by recommending Reliable Homecare today."
+            by recommending Reliable Homecare today.
           </p>
         </div>
         <div class="relative py-3 mt-8 sm:max-w-xl sm:mx-auto">
@@ -29,7 +29,7 @@ const ReferralForm = () => {
                 <h1 class="text-2xl font-semibold">Submit your referrals</h1>
                 <p className="mt-2 text-[#2D24A1]">
                   {" "}
-                  We apperciate your referrals. Please fill out our form to
+                  We appreciate your referrals. Please fill out our form to
                   submit.
                 </p>
               </div>

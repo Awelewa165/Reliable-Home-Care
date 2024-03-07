@@ -3,7 +3,7 @@ import ChooseUS from "../ChooseUs";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 
-function WhyChooseUs() {
+function WhyChooseUsPage() {
   return (
     <div>
       <Navbar />
@@ -13,4 +13,4 @@ function WhyChooseUs() {
   );
 }
 
-export default WhyChooseUs;
+export default WhyChooseUsPage;

@@ -12,7 +12,7 @@ const ReferreUs = () => {
           your friends and family, and let them discover the dedicated support
           we offer in daily living assistance, personal care, and beyond. Share
           the gift of compassionate and comprehensive home care by recommending
-          Reliable Homecare today."
+          Reliable Homecare today.
         </p>
       </div>
       <div class="relative py-3 mt-8 sm:max-w-xl sm:mx-auto">

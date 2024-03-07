@@ -8,7 +8,7 @@ import EmployementPage from "./components/Pages/EmployementPage";
 import Home from "./components/Pages/Home";
 import ReferralForm from "./components/Pages/ReferralForm";
 import Services from "./components/Pages/Services";
-import WhyChooseUs from "./components/Pages/WhyChooseUs";
+import WhyChooseUs from "./components/Pages/PageWhyChooseUs";
 import ReferreUs from "./components/ReferreUsSection";
 
 function App() {

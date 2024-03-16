@@ -1,13 +1,6 @@
 import React from "react";
-import {
-  FaDribbbleSquare,
-  FaFacebookSquare,
-  FaGithubSquare,
-  FaInstagram,
-  FaTwitterSquare,
-} from "react-icons/fa";
-
 import newlogo from "../Assests/logoNEW.png";
+
 const Footer = () => {
   return (
     <div className="bg-[#F6F6F6]">
@@ -85,16 +78,6 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
-          {/* <div>
-            <h6 className="font-medium text-gray-400"> Service area</h6>
-            <ul>
-              <li className="py-2 text-sm"> About</li>
-              <li className="py-2 text-sm"> Blog</li>
-              <li className="py-2 text-sm"> Jobs</li>
-              <li className="py-2 text-sm"> Careers</li>
-            </ul>
-          </div> */}
         </div>
       </div>
     </div>

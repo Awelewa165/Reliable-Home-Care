@@ -2,7 +2,7 @@ import { Fragment, useState } from "react";
 import newlogo from "../Assests/logoNEW.png";
 import ReferralForm from "./Pages/ReferralForm";
 import Home from "./Pages/Home";
-import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
+import { Dialog, Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Menu } from "@headlessui/react";

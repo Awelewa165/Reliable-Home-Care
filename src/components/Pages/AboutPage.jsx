@@ -7,7 +7,6 @@ const AboutPage = () => {
   return (
     <div>
       <Navbar />
-      {/* <img src={Logo} alt="" className="w-full h-[900px]" /> */}
       <AboutUsSection />
       <Footer />
     </div>

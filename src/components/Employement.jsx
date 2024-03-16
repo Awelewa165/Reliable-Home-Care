@@ -1,12 +1,6 @@
-import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/react/24/outline";
 import { CheckIcon } from "@heroicons/react/20/solid";
-const includedFeatures = [
+
+const jobResponsibles = [
   "Light housekeeping includes laundry, errands, and appointments.",
   "Meal planning, preparation, cleanup, monitoring and encouraging fluid intake, and monitoring dietary restrictions and allergies.",
   "Medication reminders, doctor’s appointment reminders, and taking vital signs as indicated on the care plan.",
@@ -56,7 +50,7 @@ const Employement = () => {
             role="list"
             className="mt-8 grid grid-cols-1 gap-4 text-normal leading-8 text-gray-600 sm:grid-cols-2 sm:gap-6"
           >
-            {includedFeatures.map((feature) => (
+            {jobResponsibles.map((feature) => (
               <li key={feature} className="flex gap-x-3">
                 <CheckIcon
                   className="h-6 w-5 flex-none text-[#2D24A1]"

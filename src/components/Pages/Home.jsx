@@ -3,13 +3,11 @@ import ReferreUs from "../ReferreUsSection";
 import Address from "../Address";
 import WelcomeStatement from "../Welcome";
 import Footer from "../Footer";
-
 import WhyChooseUs from "../WhyChooseUs";
 import Navbar from "../Navbar";
-import NewHero from "../NewHero";
-
+import NewHero from "../Hero";
 import Ourservices from "../Ourservices";
-import NewContactUs from "../NewContactUs";
+import JoinOurTeam from "../JoinOurTeam";
 import ServicedAreas from "../ServicedAreas";
 
 function Home() {
@@ -20,15 +18,11 @@ function Home() {
       <WelcomeStatement />
       <WhyChooseUs />
       <Ourservices />
-      <NewContactUs />
+      <JoinOurTeam />
       <ServicedAreas />
       <ReferreUs />
       <Address />
       <Footer />{" "}
-      {/* <div>
-        <img src={LandingPage} alt="/" className="w-full" />
-      </div> */}
-      {/* <Hero /> */}
     </>
   );
 }

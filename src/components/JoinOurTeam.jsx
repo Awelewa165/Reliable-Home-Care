@@ -1,7 +1,7 @@
 import React from "react";
 import TeamPic from "../Assests/Image3.jpeg";
 
-const NewContactUs = () => {
+const JoinOurTeam = () => {
   return (
     <div className="relative bg-[#F6F6F6] flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
       <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
@@ -54,4 +54,4 @@ const NewContactUs = () => {
   );
 };
 
-export default NewContactUs;
+export default JoinOurTeam;

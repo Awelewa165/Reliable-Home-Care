@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Employement from "./components/Employement";
 import AboutPage from "./components/Pages/AboutPage";
 import ClientReferral from "./components/Pages/ClientReferral";
 import ContactUs from "./components/Pages/ContactUs";
@@ -9,7 +8,6 @@ import Home from "./components/Pages/Home";
 import ReferralForm from "./components/Pages/ReferralForm";
 import Services from "./components/Pages/Services";
 import WhyChooseUs from "./components/Pages/PageWhyChooseUs";
-import ReferreUs from "./components/ReferreUsSection";
 
 function App() {
   return (
